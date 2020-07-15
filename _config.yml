@@ -1,5 +1,5 @@
 # Site settings
-title: using-local-overriding-minima
+title: ryanbran.ch
 email: contact.ryanbran.ch@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Placeholder for
@@ -12,11 +12,16 @@ github_username:  ryanbranch
 
 # Build settings
 markdown: kramdown
+# Commented out the line below in order to use jekyanbranch as the base theme
 #theme: minima
 remote_theme: ryanbranch/jekyanbranch
 plugins:
   - jekyll-feed
-
+  # Added to support the use of http://github.com/ryanbranch/jekyanbranch
+  # as a theme DURING LOCAL DEVELOPMENT. This line is not needed in order
+  # for a GitHub Pages repo to use another GitHub repo as a Jekyll theme.
+  - jekyll-remote-theme
+  
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
