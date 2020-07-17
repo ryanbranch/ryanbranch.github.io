@@ -60,4 +60,28 @@ layout: null
     </url>
     {% endunless %}
   {% endfor %}
+  {% for item in site.portfolio_items %}
+    {% unless item.sitemap.exclude == "yes" %}
+    <url>
+      <loc>{{ site.url }}{{ item.url | remove: "index.html" }}</loc>
+      {% if item.sitemap.lastmod %}
+        <lastmod>{{ item.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
+      {% elsif item.date %}
+        <lastmod>{{ item.date | date_to_xmlschema }}</lastmod>
+      {% else %}
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+      {% endif %}
+      {% if item.sitemap.changefreq %}
+        <changefreq>{{ item.sitemap.changefreq }}</changefreq>
+      {% else %}
+        <changefreq>monthly</changefreq>
+      {% endif %}
+      {% if item.sitemap.priority %}
+        <priority>{{ item.sitemap.priority }}</priority>
+      {% else %}
+        <priority>0.3</priority>
+      {% endif %}
+    </url>
+    {% endunless %}
+  {% endfor %}
 </urlset>

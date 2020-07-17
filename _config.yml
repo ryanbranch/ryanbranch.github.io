@@ -13,6 +13,16 @@ google_fonts: false
 # Display Toggles
 footer_email: false
 
+# COLLECTIONS
+# See the Jekyll documentation for more info: https://jekyllrb.com/docs/collections/
+collections:
+  portfolio_items:
+    output: true
+    order:
+      resume.html
+      projects/project-1.html
+
+
 # Build settings
 markdown: kramdown
 # Commented out the line below in order to use jekyanbranch as the base theme
