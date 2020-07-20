@@ -11,6 +11,13 @@ github_username:  ryanbranch
 linkedin_username: ryanbranch
 twitter_username: rjbranch
 
+# Static Page Permalinks
+# NOTE: MUST BE UPDATED TO MATCH THE PERMALINKS SET IN THE FRONT MATTER OF EACH RELEVANT PAGE
+permalink_portfolio: "/portfolio/"
+permalink_software_projects: "/software/"
+permalink_hardware_projects: "/hardware/"
+permalink_experience: "/experience/"
+
 # Google-related
 google_fonts: false
 # Display Toggles
@@ -19,6 +26,8 @@ footer_email: false
 # COLLECTIONS
 # See the Jekyll documentation for more info: https://jekyllrb.com/docs/collections/
 collections:
+  page_types:
+    output: false 
   portfolio_items:
     output: true
     order:

@@ -4,8 +4,20 @@ sitemap:
   priority: 0.9
   changefreq: 'weekly'
   exclude: 'no'
-layout: portfolio-home
+layout: default
 title: Portfolio
 permalink: /portfolio/
+
+page-types:
+  - "portfolio-related"
 ---
-Page content for portfolio.html
+<div class="portfolio-home">
+
+  {%- include portfolio-header.html -%}  
+  
+  {%- include portfolio-table.html -%}
+
+  Page content for portfolio.html
+</div>
+
+
