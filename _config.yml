@@ -18,7 +18,12 @@ permalink_software_projects: "/software/"
 permalink_hardware_projects: "/hardware/"
 permalink_experience: "/experience/"
 
+# Special Characters
+right_arrow: "&#9656;"
+
 # Google-related
+google_analytics: true
+google_analytics_tracking_id: "UA-158059409-4"
 google_fonts: false
 # Display Toggles
 footer_email: false
