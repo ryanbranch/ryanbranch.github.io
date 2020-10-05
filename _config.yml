@@ -22,8 +22,8 @@ permalink_experience: "/experience/"
 right_arrow: "&#9656;"
 
 # Google-related
-google_analytics: true
-google_analytics_tracking_id: "UA-158059409-4"
+google_analytics: false
+#google_analytics_tracking_id: "UA-158059409-4"
 google_fonts: false
 # Display Toggles
 footer_email: false
@@ -66,5 +66,3 @@ plugins:
 exclude:
   - personal/
   - sandbox/
-
-
