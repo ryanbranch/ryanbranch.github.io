@@ -1,0 +1,5 @@
+# Jekyll Cache
+/.jekyll-cache/
+
+# Generated Jekyll Site Content
+/_site/
