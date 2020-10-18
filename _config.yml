@@ -21,6 +21,7 @@ permalink_portfolio: "/portfolio/"
 permalink_software_projects: "/software/"
 permalink_hardware_projects: "/hardware/"
 permalink_experience: "/experience/"
+permalink_research: "/research/"
 
 # Special Characters
 right_arrow: "&#9656;"
