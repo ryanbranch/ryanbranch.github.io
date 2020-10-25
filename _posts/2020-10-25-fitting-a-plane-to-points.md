@@ -52,7 +52,7 @@ from numba import jit
 # Calculates the A, B, C, D coefficients of a normalized plane which best fits a dataset
 # Based on an approach by Emil Ernerfeldt, titled "Fitting a plane to noisy points in 3D"
 #   (http://www.ilikebigbits.com/2017_09_25_plane_from_points_2.html)
-# Written by Ryan Branch on 2020/10/25. See https://ryanbran.ch/blog/2020/10/24/fitting-a-plane-to-points.html
+# Written by Ryan Branch on 2020/10/25. See https://ryanbran.ch/blog/2020/10/25/fitting-a-plane-to-points.html
 # INPUTS: A 2D Numpy float array of arbitrary outer length, and inner length 3 for (x, y, z) of N points
 # OUTPUTS: A 4-tuple of floats A, B, C, and D such that (Ax + By + Cz + D == 0)
 #            (Returns None if no single valid solution exists)
