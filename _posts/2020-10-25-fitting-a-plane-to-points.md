@@ -7,6 +7,7 @@ sitemap:
 layout: post
 title:  "Fitting a Plane to Points in Python"
 subtitle: "A computationally efficient approach which remains robust even with noisy inputs"
+author: "Ryan Branch"
 date:   2020-10-24 23:04 -0400
 tags: Python, NumPy, Numba
 categories:
