@@ -24,8 +24,8 @@ formspree_endpoint_privacy: "mgepzwpo"
 permalink_portfolio: "/portfolio/"
 permalink_software_projects: "/software/"
 permalink_hardware_projects: "/hardware/"
-permalink_experience: "/experience/"
 permalink_research: "/research/"
+permalink_employment: "/employment/"
 
 # Special Characters
 right_arrow: "&#9656;"
