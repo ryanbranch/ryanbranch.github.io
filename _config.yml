@@ -31,6 +31,7 @@ permalink_contact: "/contact/"
 # MEDIA
 permalink_icon_github: "https://data.ryanbran.ch/media/social-icons/icon-github-black-128px.png"
 permalink_icon_linkedin: "https://data.ryanbran.ch/media/social-icons/icon-linkedin-black-128px.png"
+permalink_icon_orcid: "https://data.ryanbran.ch/media/social-icons/icon-orcid-black-128px.png"
 
 # Special Characters
 right_arrow: "&#9656;"
