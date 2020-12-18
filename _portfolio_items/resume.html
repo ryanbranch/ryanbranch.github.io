@@ -15,9 +15,15 @@ page-types:
   - "specific-experience"
 ---
 <br />
-<p>For the time being, <a href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}"><strong>my LinkedIn profile</strong></a> is the best source of information regarding my employment.</p>
+<h2>Downloads</h2>
 <br />
-<p>I will soon also offer a PDF download of my Cirriculum Vitae, among other documents.</p>
+{%- if site.permalink_pdf_cv -%}
+<h3><strong><a href="{{ site.permalink_pdf_cv }}">Cirriculum Vitae</a></strong></h3>
+<p>For a more complete picture of my research and academic activities.</p>
+<br />
+{%- endif -%}
+<p>I will soon also offer a PDF download of my resume, among other documents.</p>
+<p>Currently <a href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}"><strong>my LinkedIn profile</strong></a> is the best source of information regarding my employment.</p>
 <br />
 <h2>Thank you for your patience!</h2>
 <br />
