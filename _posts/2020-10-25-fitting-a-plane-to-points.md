@@ -1,6 +1,6 @@
 ---
 sitemap:
-  lastmod: 2020-10-25
+  lastmod: 2020-12-23
   priority: 0.6
   changefreq: 'monthly'
   exclude: 'no'
@@ -14,9 +14,6 @@ categories:
   - blog
 unlisted: false
 ---
-<br />
-<hr />
-<br />
 
 <h3><strong>Introduction:</strong></h3>
 While researching geometric methods for some private code, I stumbled upon a blogpost titled [**"Fitting a plane to noisy points in 3D"**](http://www.ilikebigbits.com/2017_09_25_plane_from_points_2.html) by Emil Ernerfeldt.
