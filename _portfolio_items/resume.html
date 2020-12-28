@@ -17,16 +17,22 @@ page-types:
 <br />
 <h1>Downloads</h1>
 <br />
-{%- if site.permalink_pdf_cv -%}
-<h3><strong><a href="{{ site.permalink_pdf_cv }}">Cirriculum Vitae</a></strong></h3>
-<p>For a more complete picture of my research and academic activities.</p>
+{%- if site.permalink_pdf_resume -%}
+<h3><strong><a href="{{ site.permalink_pdf_resume }}">Resume</a></strong></h3>
+<p>For a one-page summary of my employment background, education, and skills</p>
 <br />
 {%- endif -%}
-<p>I will soon also offer a PDF download of my resume, among other documents.</p>
-<p>Currently <a href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}"><strong>my LinkedIn profile</strong></a> is the best source of information regarding my employment.</p>
+{%- if site.permalink_pdf_cv -%}
+<h3><strong><a href="{{ site.permalink_pdf_cv }}">Cirriculum Vitae</a></strong></h3>
+<p>For a more complete picture of my research and academic activities</p>
 <br />
-<h2>Thank you for your patience!</h2>
+{%- endif -%}
+{%- if site.linkedin_username -%}
+<h3><strong><a href="https://www.linkedin.com/in/ {{- site.linkedin_username -}} ">LinkedIn</a></strong></h3>
+<p>Typically contains the most up-to-date information regarding my employment and professional activities</p>
 <br />
+{%- endif -%}
+<hr />
 <br />
 <h1>Certifications</h1>
 <br />
@@ -61,6 +67,8 @@ page-types:
       </tr>
   </tbody>
 </table>
+<br />
+<hr />
 <br />
 <h1>Entrepreneurial Achievements</h1>
 <br />

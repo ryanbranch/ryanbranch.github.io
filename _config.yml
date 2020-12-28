@@ -37,6 +37,7 @@ permalink_icon_orcid: "https://data.ryanbran.ch/media/social-icons/icon-orcid-bl
 # DOCUMENTS
 # Portfolio
 permalink_pdf_cv: "https://data.ryanbran.ch/portfolio/ryanbranch-cirriculum-vitae.pdf"
+permalink_pdf_resume: "https://data.ryanbran.ch/portfolio/ryanbranch-resume.pdf"
 
 # Special Characters
 right_arrow: "&#9656;"
