@@ -17,7 +17,7 @@ orcid_id: "0000-0001-6456-3468"
 google_scholar_id: "tkVpzE4AAAAJ"
 # Contact Form Configuration
 captcha: true
-captcha-public-key: "6LfKERAaAAAAAAMK-xtUAzzqNsAN0JChys7JqubW"
+captcha_public_key: "6LfKERAaAAAAAAMK-xtUAzzqNsAN0JChys7JqubW"
 formspree_endpoint_contact: "xbjpgbvy"
 formspree_endpoint_privacy: "mgepzwpo"
 
