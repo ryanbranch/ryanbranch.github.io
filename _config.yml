@@ -20,6 +20,7 @@ captcha: true
 captcha_public_key: "6LfKERAaAAAAAAMK-xtUAzzqNsAN0JChys7JqubW"
 formspree_endpoint_contact: "xbjpgbvy"
 formspree_endpoint_privacy: "mgepzwpo"
+formspree_endpoint_consulting: "xoqppzgo"
 
 # Static Page Permalinks
 # NOTE: MUST BE UPDATED TO MATCH THE PERMALINKS SET IN THE FRONT MATTER OF EACH RELEVANT PAGE
